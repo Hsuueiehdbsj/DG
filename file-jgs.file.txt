@@ -1,0 +1,11 @@
+# AI Provider (openai or anthropic)
+AI_PROVIDER=openai
+
+# OpenAI Configuration
+OPENAI_API_KEY=sk-your-openai-key-here
+
+# Anthropic Configuration
+ANTHROPIC_API_KEY=sk-ant-your-anthropic-key-here
+
+# GitHub Configuration
+GITHUB_TOKEN=ghp_your-github-token-here

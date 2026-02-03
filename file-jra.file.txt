@@ -1,0 +1,33 @@
+# ✨ SummarizeHub
+
+AI-powered content summarization with GitHub integration and glassmorphism UI.
+
+## Features
+
+- 📝 **Text Summarization** - Summarize any text with multiple styles
+- 📁 **File Processing** - Support for PDF, DOCX, TXT, MD, and code files
+- 🖼️ **Image Analysis** - AI-powered image description and analysis
+- 🎬 **Video Summarization** - YouTube transcript extraction and summarization
+- 🔗 **GitHub Integration** - Push summaries directly to your repositories
+- 💾 **Export Options** - Download as MD, TXT, or JSON
+
+## Quick Start
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/summarize-hub.git
+cd summarize-hub
+
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Configure environment
+cp .env.example .env
+# Edit .env with your API keys
+
+# Run the app
+streamlit run app.py
